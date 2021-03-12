@@ -1,0 +1,34 @@
+<html>
+<head>
+<style type="text/css">
+	body {font-size: smaller;}
+</style>
+</head>
+<body>
+
+<b>Crosswords 4.4 beta 31 release</b>
+
+<ul>
+
+  <li>Give choice between sending invites as TEXT or HTML, then format 
+  differently depending</li>
+
+  <li>include link in invites to install Crosswords</li>
+
+  <li>Add expand/contract buttons to games list</li>
+
+  <li>Add ability to rename games</li>
+  
+  <li>Don't crash when user chooses "Copy"</li>
+  
+</ul>
+
+
+<p>Please remember that this is beta software.  Please let me know (at 
+eehouse@eehouse.org) what's broken and what features you'd most like 
+to see.</p>
+
+<p>Thanks!<br>--Eric</p>
+
+</body>
+</html>

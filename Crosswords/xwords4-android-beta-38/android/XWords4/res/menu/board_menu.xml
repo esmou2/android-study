@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <group android:id="@+id/group_done">
+    <!-- title set in BoardActivity -->
+    <item android:id="@+id/board_menu_done"
+          android:alphabeticShortcut="D"
+          />
+    <item android:id="@+id/board_menu_trade"
+          android:title="@string/board_menu_trade"
+          android:alphabeticShortcut="T"
+          />
+  </group>
+
+    <item android:id="@+id/board_menu_undo_last"
+          android:title="@string/board_menu_undo_last"
+          android:alphabeticShortcut="U"
+          />
+
+    <item android:id="@+id/board_menu_tray"
+          android:title="@string/board_menu_tray" 
+          android:alphabeticShortcut="H"
+          />
+
+    <item android:id="@+id/board_menu_values"
+          android:title="@string/board_menu_values"
+          android:alphabeticShortcut="V"
+          />
+
+    <item android:title="@string/board_submenu_game">
+      <menu>
+        <item android:id="@+id/board_menu_game_counts"
+              android:title="@string/board_menu_game_counts" />
+        <item android:id="@+id/board_menu_game_left"
+              android:title="@string/board_menu_game_left" />
+        <item android:id="@+id/board_menu_game_history"
+              android:title="@string/board_menu_game_history" />
+        <item android:id="@+id/board_menu_game_final"
+              android:title="@string/board_menu_game_final" />
+        <item android:id="@+id/board_menu_game_resend"
+              android:title="@string/board_menu_game_resend" />
+      </menu>
+    </item>
+
+    <item android:id="@+id/gamel_menu_checkmoves"
+          android:title="@string/gamel_menu_checkmoves"
+          />
+
+    <item android:id="@+id/board_menu_file_prefs"
+          android:title="@string/menu_prefs"
+          android:alphabeticShortcut="P"
+          />
+    <item android:id="@+id/board_menu_file_about"
+          android:title="@string/board_menu_file_about"
+          android:alphabeticShortcut="A"
+          />
+
+</menu>

@@ -1,0 +1,43 @@
+<html>
+<head>
+<style type="text/css">
+	body {font-size: smaller;}
+</style>
+</head>
+<body>
+
+<b>Crosswords 4.4 beta 22 release</b>
+<ul>
+  <li>Add periodic background checks for moves made by other devices in 
+  multi-device game.</li>
+
+  <li>Improve chat experience: now keeps history for each game.</li>
+
+  <li>Smart robot checkbox replaced by three-way choice, and now less 
+  smart robots pick their less smart moves randomly.  A better 
+  solution is coming: robots will be able to use different, smaller 
+  dictionaries.</li>
+
+  <li>Add hints-enabled to the set of defaults for new games.</li>
+
+  <li>Don't allow exchange of 0 tiles</li>
+
+  <li>UI tweaks: bigger bonus square hints; board zooms in a bit more; 
+  higher contrast mini-windows; include game name in main page listing; 
+  sort list by game name; "Discard" button added to game-deleted notification; 
+  make tiles translucent as they're being dragged; etc.
+  </li>
+
+  <li>Removed "undo last" option for multi-device games.  It's not safe...</li>
+
+  <li>Delete partial dictionary left behind by failed download</li>
+
+  <li>Fixed some crashers</li>
+</ul>
+
+<p>Please remember that this is beta software.  Please let me know (at eehouse@eehouse.org) what's broken and what features you'd most like to see.</p>
+
+<p>Thanks!<br>--Eric</p>
+
+</body>
+</html>

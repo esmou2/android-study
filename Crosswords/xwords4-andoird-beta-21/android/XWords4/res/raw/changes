@@ -1,0 +1,23 @@
+<html>
+<head>
+<style type="text/css">
+	body {font-size: smaller;}
+</style>
+</head>
+<body>
+
+<b>Crosswords 4.4 beta 21 release</b>
+<ul>
+  <li>Fix bug reported by users in the UK that meant the network was dropping so often they couldn't get a game connected.</li>
+
+  <li>Remove <em>feature</em> where a tap on an empty board square would move any selected tile there.  This was confusing, and not really useful where you're using a finger instead of a stylus to point.  (Thanks.)</li>
+
+  <li>Add hints-enabled to the set of defaults for new games.</li>
+</ul>
+
+<p>Please remember that this is beta software.  Please let me know (at eehouse@eehouse.org) what's broken and what features you'd most like to see.</p>
+
+<p>Thanks!<br>--Eric</p>
+
+</body>
+</html>

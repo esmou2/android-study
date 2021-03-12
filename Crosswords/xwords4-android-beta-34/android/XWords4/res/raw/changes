@@ -1,0 +1,39 @@
+<html>
+<head>
+<style type="text/css">
+	body {font-size: smaller;}
+</style>
+</head>
+<body>
+
+<b>Crosswords 4.4 beta 34 release</b>
+
+<ul>
+
+<li>Don't ignore user's choice of wordlists.  THIS MEANS THAT 
+IN-PROGRESS GAMES NOT USING ENGLISH WILL BREAK. (But they were broken 
+anyway: using English when you didn't want them to.)</li>
+  
+<li>Vastly (IMO) improve exchanging tiles: when in exchange mode, draw 
+board disabled, and replace toolbar with buttons for commiting or 
+abandoning the exchange</li>
+  
+<li>Stop getting confused when there are multiple wordlists with the 
+same name.  They'll all show up, and can be deleted.</li>
+
+<li>Don't lose language choice for a game if user downloads a new wordlist</li>
+
+<li>Change how recent score and bonus value are shown after long-tap 
+on scoreboard entry or bonus square: use Android's Toast feature 
+instead of drawing directly on the board</li>
+
+</ul>
+
+<p>Please remember that this is beta software.  Please let me know (at 
+eehouse@eehouse.org) what's broken and what features you'd most like 
+to see.</p>
+
+<p>Thanks!<br>--Eric</p>
+
+</body>
+</html>

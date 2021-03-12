@@ -1,0 +1,29 @@
+<html>
+<head>
+<style type="text/css">
+	body {font-size: smaller;}
+</style>
+</head>
+<body>
+
+<b>Crosswords 4.4 beta 20 release</b>
+<ul>
+
+  <li>Replace large tournament-grade dictionary with tiny one.  This should address complaints that the robot's too smart.</li>
+
+  <li>When a game depends on a dictionary that's been deleted and there are others available in that language, give the option to substitute instead of refusing to open the game.</li>
+
+  <li>Include number of words in new dictionary format, and display that along with language where available.  You will need to re-download any dictionaries that are not built-in to take advantage of this.</li>
+
+  <li>Try to handle changes in network availability in the middle of a game -- so you don't have to re-open a game to get it to connect.</li>
+
+  <li>Fix glitch drawing board on 600x800 Velocity Cruz eReader tablet -- $160 at Costco, and Crosswords runs great!</li>
+
+</ul>
+
+<p>Please remember that this is beta software.  Please let me know (at eehouse@eehouse.org) what's broken and what features you'd most like to see.</p>
+
+<p>Thanks!<br>--Eric</p>
+
+</body>
+</html>

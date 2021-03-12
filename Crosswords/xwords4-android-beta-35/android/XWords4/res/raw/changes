@@ -1,0 +1,32 @@
+<html>
+<head>
+<style type="text/css">
+	body {font-size: smaller;}
+</style>
+</head>
+<body>
+
+<b>Crosswords 4.4 beta 35 release</b>
+
+<ul>
+
+    <li>Add ability to look up words played by opponents via online 
+        dictionary sites.  The list of sites is hard-coded, and I don't have 
+        them for most languages.  Suggestions welcomed (including improvements 
+        for English)!
+    </li>
+
+    <li>Rename 'Turn done' menuitem to 'Pass' when no points will be 
+        scored
+    </li>
+
+</ul>
+
+<p>Please remember that this is beta software.  Please let me know (at 
+eehouse@eehouse.org) what's broken and what features you'd most like 
+to see.</p>
+
+<p>Thanks!<br>--Eric</p>
+
+</body>
+</html>

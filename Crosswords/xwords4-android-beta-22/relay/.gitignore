@@ -1,0 +1,8 @@
+*.o
+rq
+core
+core.*
+xwrelay.log*
+xwrelay.pid
+xwrelay
+xwrelay.conf

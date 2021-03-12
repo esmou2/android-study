@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Resources in this file do not require localization -->
+<resources>
+
+  <!-- prefs keys -->
+  <string name="key_color_tiles">key_color_tiles</string>
+  <string name="key_show_arrow">key_show_arrow</string>
+  <string name="key_explain_robot">key_explain_robot</string>
+  <string name="key_skip_confirm">key_skip_confirm</string>
+  <string name="key_sort_tiles">key_sort_tiles</string>
+  <string name="key_peek_other">key_peek_other</string>
+  <string name="key_hide_values">key_hide_values</string>
+  <string name="key_ringer_zoom">key_ringer_zoom</string>
+  <string name="key_hide_title">key_hide_title</string>
+  <string name="key_show_bonussum">key_show_bonussum</string>
+  <string name="key_player0">key_clr_player0</string>
+  <string name="key_player1">key_clr_player1</string>
+  <string name="key_player2">key_clr_player2</string>
+  <string name="key_player3">key_clr_player3</string>
+  <string name="key_bonus_l2x">key_clr_bonus_l2x</string>
+  <string name="key_bonus_l3x">key_clr_bonus_l3x</string>
+  <string name="key_bonus_w2x">key_clr_bonus_w2x</string>
+  <string name="key_bonus_w3x">key_clr_bonus_w3x</string>
+  <string name="key_tile_back">key_clr_tile_back</string>
+  <string name="key_empty">key_clr_empty</string>
+  <string name="key_clr_crosshairs">key_clr_crosshairs</string>
+  <string name="key_relay_host">key_relay_host</string>
+  <string name="key_relay_port">key_relay_port2</string>
+  <string name="key_proxy_port">key_proxy_port</string>
+  <string name="key_sms_port">key_sms_port</string>
+  <string name="key_dict_host">key_dict_host</string>
+  <string name="key_board_size">key_board_size</string>
+  <string name="key_initial_player_minutes">key_initial_player_minutes</string>
+  <string name="key_default_dict">key_default_dict</string>
+  <string name="key_default_phonies">key_default_phonies2</string>
+  <string name="key_default_timerenabled">key_default_timerenabled</string>
+  <string name="key_connect_frequency">key_connect_frequency</string>
+
+  <string name="key_notagain_sync">key_notagain_sync</string>
+  <string name="key_notagain_chat">key_notagain_chat</string>
+  <string name="key_notagain_relay">key_notagain_relay</string>
+  <string name="key_notagain_newgame">key_notagain_newgame</string>
+  <string name="key_notagain_hintprev">key_notagain_hintprev</string>
+  <string name="key_notagain_hintnext">key_notagain_hintnext</string>
+  <string name="key_notagain_juggle">key_notagain_juggle</string>
+  <string name="key_notagain_flip">key_notagain_flip</string>
+  <string name="key_notagain_zoom">key_notagain_zoom</string>
+  <string name="key_notagain_undo">key_notagain_undo</string>
+  <string name="key_notagain_done">key_notagain_done</string>
+  <string name="key_notagain_unlock">key_notagain_unlock</string>
+  <string name="key_notagain_conndall">key_notagain_conndall</string>
+  <string name="key_notagain_conndfirst">key_notagain_conndfirst</string>
+  <string name="key_notagain_conndmid">key_notagain_conndmid</string>
+
+  <string name="relayids_extra">org.eehouse.android.xw4.relayids_extra</string>
+  
+  <!-- other -->
+  <string name="default_host">eehouse.org</string>
+  <string name="dict_url">http://eehouse.org/and_dicts</string>
+  <!--string name="dict_url">http://10.0.2.2/~eehouse/and_dicts</string-->
+
+  <string-array name="board_sizes">
+    <item>15x15</item>
+    <item>13x13</item>
+    <item>11x11</item>
+  </string-array>
+
+  <string-array name="phony_names">
+    <item>@string/phonies_ignore</item>
+    <item>@string/phonies_warn</item>
+    <item>@string/phonies_disallow</item>
+  </string-array>
+
+  <string-array name="connect_frequencies">
+    <item>@string/connect_thirty_seconds</item>
+    <item>@string/connect_five_mins</item>
+    <item>@string/connect_fifteen_mins</item>
+    <item>@string/connect_thirty_mins</item>
+    <item>@string/connect_one_hour</item>
+    <item>@string/connect_six_hours</item>
+    <item>@string/connect_daily</item>
+    <item>@string/connect_never</item>
+  </string-array>
+
+  <string-array name="connect_frequencies_values">
+    <item>30</item>
+    <item>300</item>
+    <item>900</item>
+    <item>1800</item>
+    <item>3600</item>
+    <item>21600</item>
+    <item>86400</item>
+    <item>-1</item>
+  </string-array>
+
+  <string-array name="language_names">
+    <item>Unknown</item>
+    <item>English</item>
+    <item>French</item>
+    <item>German</item>
+    <item>4</item>
+    <item>5</item>
+    <item>Spanish</item>
+    <item>Swedish</item>
+    <item>Polish</item>
+    <item>Danish</item>
+    <item>Italian</item>
+    <item>Dutch</item>
+    <item>Catalan</item>
+    <item>Portuguese</item>
+    <item>E</item>
+    <item>Russian</item>
+    <item>10</item>
+    <item>Czech</item>
+    <item>Greek</item>
+    <item>Slovak</item>
+  </string-array>
+
+</resources>

@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <string name="menu_delete">Delete</string>
+    <string name="button_new_game">Add single-device game</string>
+    <string name="button_new_game_net">Add multi-device game</string>
+
+    <string name="list_item_play">Play game</string>
+    <string name="list_item_config">Game settings...</string>
+    <string name="list_item_hide">Hide</string>
+    <string name="list_item_delete">Delete</string>
+	<string name="list_item_copy">Copy</string>
+	<string name="list_item_reset">Reset</string>
+
+	<string name="list_item_new_from">New from</string>
+	<string name="list_item_move_up">Move up</string>
+	<string name="list_item_move_down">Move down</string>
+	<string name="list_item_move_to_top">Move to top</string>
+	<string name="list_item_move_to_bottom">Move to bottom</string>
+
+    <string name="resolve_edit">Edit note</string>
+    <string name="resolve_title">Edit title</string>  
+
+    <string name="play">Play game</string>
+
+    <string name="title_create">Create game</string>
+    <string name="title_edit">Edit game</string>
+	<string name="title_games_list">Crosswords</string>   
+	<string name="title_dicts_list">Dictionaries (language/wordcount)</string>   
+	<string name="title_game">Game</string>  
+	<string name="title_game_configf">%s settings</string>  
+	<string name="title_gamenet_configf">%s settings (networked)</string>  
+	<string name="title_prefs">Crosswords settings</string>  
+	
+	<string name="app_name">Crosswords</string>  
+	
+	<string name="button_ok">OK</string>  
+	<string name="button_cancel">Cancel</string>  
+	<string name="button_yes">Yes</string>  
+	<string name="button_no">No</string>  
+	<string name="button_save">Save</string>  
+	<string name="button_discard">Discard</string>  
+	<string name="button_retry">Retry</string>  
+
+    <string name="player_label">Name:</string>
+    <string name="game_config_open">Open</string>
+    <string name="game_config_revert">Revert changes</string>
+
+	<string name="error_title">Error</string>
+	<string name="info_title">FYI...</string>
+	<string name="newbie_title">New user info</string>
+	<string name="error_message">Error loading game</string>
+	<string name="query_title">A question...</string>
+	<string name="query_trade">Are you sure you want to exchange the selected tiles?</string>
+
+
+    <string name="title_tile_picker">Letter for blank</string>
+    <string name="tiles_left_title">Remaining tiles</string>
+    <string name="counts_values_title">Tile Counts and Values</string>
+    <string name="history_title">Game History</string>
+    <string name="finalscores_title">Final scores</string>
+
+    <!-- system menu for main board view -->
+	<string name="board_menu_done">Turn done</string>
+	<string name="board_menu_juggle">Shuffle</string>
+	<string name="board_menu_flip">Flip</string>
+	<string name="board_menu_trade">Exchange tiles</string>
+	<string name="board_menu_tray">Hide rack</string>
+	<string name="board_submenu_undo">Undo</string>
+	<string name="board_menu_undo_current">Undo current</string>
+	<string name="board_menu_undo_last">Undo last</string>
+	<string name="board_menu_values">Show values</string>
+	<string name="board_submenu_game">Game</string>
+	<string name="board_menu_game_counts">Counts and values</string>
+	<string name="board_menu_game_left">Tiles remaining</string>
+	<string name="board_menu_game_history">Game history</string>
+	<string name="board_menu_game_final">Final scores</string>
+	<string name="board_menu_game_resend">Resend messages</string>
+	<string name="board_submenu_file">File</string>
+	<string name="board_menu_file_new">New game</string>
+	<string name="board_menu_file_about">About Crosswords</string>
+
+	<string name="gamel_menu_delete_all">Delete all</string>
+	<!-- <string name="gamel_menu_view_hidden">Hidden games</string> -->
+
+    <!-- returned by util_getUserString -->
+    <string name="strd_robot_traded">exchanged %d tiles.</string>
+    <string name="str_robot_moved">The robot made this move: </string>
+    <string name="strs_values_header">%s counts/values:\n</string>
+    <string name="strd_remaining_tiles_add">+ %d [all remaining tiles]</string>
+    <string name="strd_unused_tiles_sub">- %d [unused tiles]</string>
+    <string name="str_remote_moved">Remote player made this move: </string>
+    <string name="strd_time_penalty_sub"></string>
+    <string name="str_pass"> - %d [time]</string>
+    <string name="strs_move_across">move (from %s across)</string>
+    <string name="strs_move_down">move (from %s down)</string>
+    <string name="strs_tray_at_start">Rack at start: %s</string>
+    <string name="strss_traded_for">Exchanged %s for %s.</string>
+    <string name="str_phony_rejected">Illegal word in move; turn lost!</string>
+    <string name="strd_cumulative_score">Cumulative score: %d</string>
+    <string name="strs_new_tiles">New tiles: %s</string>
+    <string name="str_passed">Passed</string>
+    <string name="strsd_summaryscored">%s:%d</string>
+    <string name="strd_traded">%s:%d</string>
+    <string name="str_lostturn">Lost turn</string>
+    <string name="str_commit_confirm">Commit the current move?\n</string>
+    <string name="str_local_name">%s</string>
+    <string name="str_nonlocal_name">%s (remote)</string>
+    <string name="str_bonus_all">Bonus for using all tiles: 50\n</string>
+    <string name="strd_turn_score">Score for turn: %d\n</string>
+
+    <!-- error messages -->
+	<string name="str_tiles_not_in_line">All tiles played must be in a line.</string>
+	<string name="str_no_empties_in_turn">Empty squares cannot separate tiles played.</string>
+	<string name="str_two_tiles_first_move">Must play two or more pieces on the first move.</string>
+	<string name="str_tiles_must_contact">New pieces must contact others already in place (or the middle square on the first move)</string>
+	<string name="str_not_your_turn">You can\'t do that; it\'s not your turn!</string>
+	<string name="str_no_peek_robot_tiles">No peeking at the robot\'s tiles!</string>
+	<string name="str_cant_trade_mid_move">Remove played tiles before exchanging.</string>
+    <string name="str_no_empty_trade">Trade cancelled because no tiles
+      selected.  (It\'s still your turn.)</string>
+	<string name="str_too_few_tiles_left_to_trade">Too few tiles left to exchange.</string>
+	<string name="str_cant_undo_tileassign">Tile assignment can\'t be undone.</string>
+	<string name="str_cant_hint_while_disabled">The hint feature is disabled for this game.  Enable it for a new game using the Settings dialog.</string>
+	<string name="str_no_peek_remote_tiles">No peeking at remote players\' tiles!</string>
+	<string name="str_reg_unexpected_user">Refused attempt to register unexpected user[s]</string>
+	<string name="str_server_dict_wins">Conflict between Host and Guest dictionaries; Host wins.</string>
+	<string name="str_reg_server_sans_remote">At least one player must be marked \"Remote\" for a game started as Host.</string>
+
+    <string name="remote_label">Off-device player</string>
+    <string name="robot_label">Robot player</string>
+    <string name="robot_name">(robot)</string>
+    <string name="guest_name">(Off-device player)</string>
+    <string name="password_label">Password</string>
+    <string name="player_edit_title">Edit player</string>
+
+    <string name="players_label_standalone">Players</string>
+    <string name="players_label_host">Players (%d local, %d off-device)</string>
+    <string name="players_label_guest">Players -- local only</string>
+    <string name="game_locked">Lock settings</string>
+    <string name="button_add_player">Add player</string>
+    <string name="button_juggle_players">Shuffle players</string>
+
+    <string name="list_item_up">Up one</string>
+    <string name="list_item_down">Down one</string>
+    <string name="dicts_item_select">Make default</string>
+    <string name="dicts_item_delete">Delete dictionary</string>
+    <string name="dicts_item_details">Details</string>
+
+    <string name="dict_label">Dictionary</string>
+    <string name="role_label">Device role</string>
+    <string name="connection_label">Connection</string>
+    <string name="connect_label">Connection (via internet)</string>
+    <string name="room_public">Make new room public</string>
+    <string name="join_room">Join public room</string>
+    <string name="new_room_hint">Room name</string>
+    <string name="room_public_prompt">Select public room</string>
+
+    <string name="configure_role">Configure connection</string>
+    <string name="configure_rolef">Configure %s connection</string>
+    <string name="settings_label">Other settings</string>
+    <string name="minutes_label">Minutes per player</string>
+
+    <string name="download_dicts">Download more...</string>
+
+    <string name="confirm_save_title">Confirm save</string>
+    <string name="confirm_save">This game is in play.  If you
+      save these changes it must be restarted.  Do you want to save
+      these changes?</string>
+    <string name="confirm_delete">Are you sure you want to delete this
+      game?</string>
+    <string name="confirm_delete_all">Are you sure you want to delete
+      all games?</string>
+    <string name="confirm_reset">Are you sure you want to reset this
+      game? Resetting erases all moves and any connection
+      information.</string>
+    <string name="confirm_undo_last">Are you sure you want to undo the
+      last committed turn? (There is no redo option.)</string>
+      
+    <string name="confirm_delete_dictf">Are you sure you want to
+    delete %s? It is used by %d games, and you will not be able to
+    open them without it.</string>
+    
+    <string name="hints_allowed">Allow hints</string>
+    <string name="hints_allowed_sum">Enable the hint feature</string>
+    <string name="progress_title">Searching for moves</string>
+    <string name="use_timer">Enable game timer</string>
+    <string name="color_tiles">Color tiles</string>
+    <string name="color_tiles_summary">Draw tiles using color of
+    player who played them</string>
+    <string name="show_arrow">Show board arrow</string>
+    <string name="show_arrow_summary">Tapped rack tiles land on this
+      arrow when it is visible</string>
+    <string name="explain_robot">Explain other moves</string>
+    <string name="explain_robot_summary">Display score summary after
+      every robot or remote turn</string>
+    <string name="skip_confirm_turn">Skip confirming turn</string>
+    <string name="skip_confirm_turn_summary">Do NOT display score
+    summary after every human turn</string>
+    <string name="title_sort_tiles">Sort new tiles</string>
+    <string name="summary_sort_tiles">Sort racks whenever new tiles
+      are added</string>
+    <string name="ringer_zoom">Volume keys zoom</string>
+    <string name="ringer_zoom_summary">Zoom board using volume keys</string>
+    <string name="hide_title">Hide titlebar</string>
+    <string name="hide_title_summary">Hiding the game name lets the
+      board be slightly larger</string>
+    <string name="peek_other">View tiles out-of-turn</string>
+    <string name="peek_other_summary">Tapping on scoreboard name shows
+    that player\'s tiles</string>
+
+    <string name="phonies_ignore">Ignore phonies</string>
+    <string name="phonies_warn">Warn if phonies</string>
+    <string name="phonies_disallow">Disallow phonies</string>
+    <string name="robot_spinner_prompt">How smart is the robot player?</string>
+    <string name="robot_smart">Smart robot</string>
+    <string name="robot_smarter">Smarter robot</string>
+    <string name="robot_smartest">Smartest robot</string>
+    
+    <string name="menu_prefs">Settings</string>
+    <string name="gamel_menu_dicts">Dictionaries</string>
+    <string name="menu_revert_all">Restore all</string>
+    <string name="menu_revert_colors">Restore colors</string>
+    <string name="confirm_revert_colors">Are you sure you want to
+    restore all color preferences to their default values?</string>
+    <string name="confirm_revert_all">Are you sure you want to restore
+    all preferences to their default values?</string>
+
+    <string name="room_label">Room</string>
+    <string name="phone_label">Host phone number</string>
+    <string name="bluetooth_label">Bluetooth support coming soon....</string>
+    <string name="role_edit_title">Connection</string>
+    <string name="connect_prompt">How will Host and Guest devices
+    communicate?</string>
+
+    <string name="prefs_defaults">New game defaults</string>
+    <string name="prefs_defaults_summary">Default settings for new
+    games</string>
+    <string name="prefs_appearance">Appearance</string>
+    <string name="prefs_appearance_summary">Settings controlling
+    appearance</string>
+    <string name="prefs_behavior">Behavior</string>
+    <string name="prefs_behavior_summary">Settings controlling app behavior</string>
+
+    <string name="network_behavior">Network game settings</string>
+    <string name="network_behavior_summary">Settings that apply to
+      networked games</string>
+
+    <string name="default_dict">Game dictionary</string>
+    <string name="default_phonies">Handle phonies</string>
+    <string name="phonies_spinner_prompt">How to handle \"phonies\"
+    (words not in dictionary)</string>
+    <string name="board_size">Board size</string>
+    <string name="default_timerenabled">Use game timer</string>
+
+    <string name="manage_dicts">Choose</string>
+
+    <string name="prefs_colors">Individual colors</string>
+    <string name="prefs_colors_summary">Edit colors used on the board</string>
+    <string name="player0">First player</string>
+    <string name="player1">Second player</string>
+    <string name="player2">Third player</string>
+    <string name="player3">Fourth player</string>
+    <string name="bonus_l2x">Double letter</string>
+    <string name="bonus_l3x">Triple letter</string>
+    <string name="bonus_w2x">Double word</string>
+    <string name="bonus_w3x">Triple word</string>
+    <string name="bonus_l2x_summary">2L</string>
+    <string name="bonus_w2x_summary">2W</string>
+    <string name="bonus_l3x_summary">3L</string>
+    <string name="bonus_w3x_summary">3W</string>
+    <string name="pts">pts</string>
+    <string name="trading_text">Select one or more tiles\nto exchange.</string>
+    <string name="tile_back">Tile background</string>
+    <string name="empty">Empty cell/background</string>
+    <string name="clr_crosshairs">Crosshairs color</string>
+
+    <string name="advanced">Advanced</string>
+    <string name="advanced_summary">You may never need these...</string>
+    <string name="relay_host">Relay address</string>
+    <string name="dict_host">Dictionary download URL</string>
+    <string name="logging_on">Enable logging</string>
+    <string name="relay_port">Relay game port</string>
+    <string name="proxy_port">Relay device port</string>
+    <string name="sms_port">SMS port</string>
+
+    <string name="sms_phone_label">sms_phone_label</string>
+    <string name="sms_port_label">sms_port_label</string>
+    <string name="bt_label">bt_label</string>
+    <string name="list_item_view">list_item_view</string>
+    <string name="key_player">key_player</string>
+    <string name="tab_relay">Internet/Relay</string>
+    <string name="tab_sms">SMS (broken)</string>
+    <string name="tab_bluetooth">Bluetooth (pending)</string>
+
+    <string name="msg_relay_waiting">Device %d connected to relay in
+      room \"%s\". Waiting for %d player[s].</string>
+    <string name="msg_relay_all_heref">All players are here in room
+      \"%s\".</string>
+    <string name="title_relay_status">Connection status.</string>
+
+    <string name="relay_alert">Connection problem</string>
+    <string name="msg_too_many">You are providing more players than the host expects.</string>
+    <string name="msg_no_room">No host has registered a room by that name.</string>
+    <string name="msg_dup_room">Another host has already registered a room using that name.  Rename yours or retry later.</string>
+    <string name="msg_lost_other">The relay has lost contact with another device in this game.</string>
+
+    <string name="msg_dev_deleted">This game has been deleted on
+      another device. You will not be able to play any
+      further.</string>
+
+    <string name="ids_badwords">Word[s] %s not found in dictionary.</string>
+    <string name="badwords_accept">  Do you still want to accept this move?</string>
+    <string name="badwords_lost">  Turn lost.</string>
+    <string name="badwords_title">Illegal word[s]</string>
+
+    <string name="ids_endnow">Are you sure you want to end the game now?</string>
+
+    <string name="force_title">Off-device player[s]</string>
+    <string name="force_expl">In a multi-device game there must be at
+    least one player from and another not from this device.  Please
+    check off-device players.</string>
+    <string name="added_player">Player added to meet two-player
+    minimum for multi-device games.</string>
+    <string name="forced_consistent">Modified first player.</string>
+
+    <string name="vs">vs.</string>
+    <string name="dictionary">Dictionary:</string>
+    <string name="summary_fmt_listening">%s listening</string>
+    <string name="summary_fmt_relay">Connecting via Relay, room \"%s\"</string>
+    <string name="summary_fmt_sms">%s via SMS, dialing %s</string>
+    <string name="gameOver">Game over</string>
+    <string name="movesf">%d moves played</string>
+
+    <!-- about dialog stuff -->
+    <string name="about_versf">Crosswords for Android, Version %s,
+    rev %s.</string>
+    <string name="about_copyright">Copyright (C) 1998-2011 by Eric
+    House. This free/open source software is released under the GNU Public
+    License.</string>
+
+    <string name="about_web">For a manual or sourcecode see:
+    http://xwords.sf.net.  To report bugs, suggest features, offer to
+    help, etc., please email: eehouse@eehouse.org.</string>
+    <!-- fill this in other than in English -->
+    <string name="xlator"></string>
+
+    <string name="about_credits">Toolbar icons by Sarah Chu; other
+    credits pending permission.</string>
+
+    <string name="downloading_dictf">Downloading Crosswords
+    dictionary %s...</string>
+    <string name="no_dict_title">Dictionary not found</string>
+    <string name="button_download">Download</string>
+    <string name="subst_dict_title">Substitute dictionary (wordcount)</string>
+    <string name="button_substdict">Substitute</string>
+
+    <string name="no_dictf">Unable to open game because dictionary %s
+      not found.</string>
+    <string name="no_dict_substf">Unable to open game because
+      dictionary %s not found. You can download a replacement or
+      substitute another in the same language.</string>
+
+	<string name="msg_ask_password">Password for \"%s\":</string>
+
+	<string name="red">Red</string>
+	<string name="green">Green</string>
+	<string name="blue">Blue</string>
+
+	<string name="gamef">Game %d</string>
+	<string name="playerf">Player %d</string>
+	<string name="initial_player_minutes">Timer minutes per player</string>
+
+	<string name="git_rev_title">Source version id</string>
+    <string name="changes_title">Recent changes</string>
+    <string name="changes_button">Recent changes</string>
+
+    <string name="connect_frequency">Move check frequency</string>
+	<string name="connect_thirty_seconds">60 seconds</string>
+	<string name="connect_five_mins">5 minutes</string>
+	<string name="connect_fifteen_mins">15 minutes</string>
+	<string name="connect_thirty_mins">30 minutes</string>
+	<string name="connect_one_hour">Hourly</string>
+	<string name="connect_six_hours">Every six hours</string>
+	<string name="connect_daily">Once every day</string>
+	<string name="connect_never">Never connect</string>
+
+	<string name="notify_sound">Play sound</string>
+	<string name="notify_vibrate">Vibrate</string>
+	<string name="notify_other_summary">When opponent moves arrive</string>
+
+    <string name="public_names_progress">Fetching public rooms for
+    %d-player games in %s.</string>
+    <string name="no_name_found_f">No public rooms found for %d-player
+    games in %s. Try refreshing or creating your own.</string>
+
+    <string name="chat_local_id">Me: </string>
+    <string name="chat_other_id">Not me: </string>
+    <string name="chat_send">Send</string>
+    <string name="chat_menu_clear">Clear history</string>
+    <string name="chat_titlef">%s message history</string>
+
+    <string name="notify_title">Moves made</string>
+    <string name="notify_body">New game moves have arrived</string>
+    <string name="gamel_menu_checkmoves">Check relay</string>
+
+    <string name="no_copy_network">Games that have already connected
+    to the relay cannot be copied.</string>
+
+    <string name="no_games_to_refresh">No games found that connect via
+    the relay.</string>
+
+    <string name="msgs_progress">Checking relay for moves
+      etc...</string>
+
+    <!-- Messages for a series of dialogs that offer newbie hints in
+         strategic places.  This set will be expanding for a
+         while. -->
+    <string name="button_notagain">Do not show again</string>
+
+    <string name="not_again_sync">This action checks the relay for
+      pending moves/messages for all networked games and flags those
+      with pending moves. When you open a flagged game it will connect
+      and sync. (In a later release these moves will be downloaded in
+      the background.)</string>
+
+    <string name="not_again_chat">This button opens the screen for
+      messaging between devices in this game.  Messages will be kept
+      until you delete the game that contains them.</string>
+
+    <string name="not_again_relay">Multi-device games work through an
+      internet relay that connects devices in \"rooms\".  To play
+      against a friend, make sure you both specify the same room name.
+      Or try joining or creating a public room.</string>
+
+    <string name="not_again_newgame">The new game you have created has
+      two players. Player 1 is a robot; Player 2 is you. Tap the game
+      to play; long-tap (hold your finger on the game) to change its
+      settings or for other options.</string>
+
+    <string name="not_again_hintprev">This button shows all possible
+      moves in ascending order (using tiles to the right of the rack
+      divider.)</string>
+    <string name="not_again_hintnext">This button shows all possible
+      moves in descending order (using tiles to the right of the rack
+      divider.)</string>
+    <string name="not_again_juggle">This button randomly rearranges
+      tiles in the rack.</string>
+    <string name="not_again_flip">This button flips the board across a
+      diagonal axis.</string>
+    <string name="not_again_zoom">This button toggles the board
+      between zoomed and regular size. Drag it when it is zoomed to
+      see parts that are hidden.</string>
+    <string name="not_again_undo">This button undos or redoes the
+      current turn.</string>
+
+    <string name="not_again_done">Tapping the \"pts\" counter that
+      appears at the right end of the rack is the easiest way to
+      commit a move. (There is no shortcut for ending a
+      trade.)</string>
+    <string name="not_again_unlock">This game is in play. Some
+      settings, e.g. the number of players, cannot be changed without
+      restarting it.  When you leave this page you will have a chance
+      to discard changes to avoid a restart.</string>
+
+    <string name="not_again_conndall">You have connected and joined a
+      game on the relay; the room is now full. The device that
+      created the room will now assign your initial tiles and play can
+      begin.</string>
+    <string name="not_again_conndfirst">You have connected and started
+      a game in a new room.  Once the remaining devices have joined
+      your room and Crosswords has assigned them tiles the game can
+      begin.</string>
+    <string name="not_again_conndmid">You have connected and joined a
+      game on the relay. You will be notified when the remaining
+      device[s] have joined your room and play can begin.</string>
+
+    <string name="not_again_dicts">Crosswords dictionaries, which are
+      just compressed lists of words plus tile information, determine
+      what language a game is played in and how \"smart\" the robot is.
+      You can download different sized dictionaries in many languages
+      here.  Email me at eehouse@eehouse.org for information on building
+      and installing your own dictionaries.</string>
+
+    <string name="not_again_arrow">Moving tiles to the board:\nYou can
+      drag tiles between the rack and the board, or you can tap an
+      empty square to place the board arrow. Rack tiles you tap will
+      replace the arrow (moving it one square in the direction it
+      points.)  Tap the arrow once to change its orientation; a second
+      time, to hide it. A checkbox in the Appearance section of
+      Settings will hide it permanently.</string>
+
+    <string name="not_again_turnchanged">The player whose turn it is
+      is drawn large in the scoreboard.  Hold your finger on a name in
+      the scoreboard to get details about that player\'s most recent
+      move.</string>
+
+    <string name="relay_game_explainf">To start a basic networked two-player
+    game in %s:</string>
+
+    <string name="explain_b1">• Agree on a room name with the other
+      player.</string>
+    <string name="explain_b2">• Enter the room name in the first box
+      below. The room names on your two phones must be
+      identical.</string>
+    <string name="explain_b3">• Optionally, enter player names in the
+      second box (one per phone)</string>
+    <string name="explain_b4">• Press the \"Play game\" button on both
+      phones to start the game.</string>
+
+    <string name="advanced_config">Advanced game settings</string>
+
+    <string name="local_name_hint">Player name</string>
+    <string name="no_empty_rooms">This game cannot connect without a
+      room name.</string>
+
+    <string name="empty_games_list">Use one of the buttons below to
+      create a game. Then tap the game to play or long-tap it for
+      other options.</string>
+
+</resources>
